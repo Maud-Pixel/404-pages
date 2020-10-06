@@ -1,0 +1,72 @@
+body
+{
+    background-image: url("Images/Error_Gosth.png");
+    background-repeat: no-repeat;
+    background-size: 2000px 900px;
+    position: relative;
+    border-color: #ffff99;
+    font-size: 30px;
+}
+.click
+{
+    background-color: #ffff99;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+p
+{
+    color: white;
+    margin-bottom: 0px;
+    animation-name: colorBlack;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorBlack 
+{
+    0% {color: white;}
+    50%
+    {
+        color: white; 
+    }
+    100%{color: black;}
+}
+
+img
+{
+    width: 500px;
+    height: 500px;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -10%;
+      display: none;
+    }
+    20%
+    {
+       margin-top: -100px;
+       margin-left: 500px;
+    }
+    50%
+    {
+        margin-top: 100px;
+        margin-left: 700px;
+    }
+    80%
+    {
+        margin-top: 0px;
+        margin-left: 900px;
+    }
+    to {
+        
+        margin-left: 1145px;
+        margin-top: -58px;
+        position: absolute;
+    }
+  }
